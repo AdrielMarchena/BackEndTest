@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend of the application",
+  "main": "index.js",
+  "scripts": {
+    "test": "runT",
+    "start": "nodemon index.js",
+    "reup": "npx knex migrate:down && npx knex migrate:up"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrielMarchena/TesteMurilo.git"
+  },
+  "keywords": [
+    "test",
+    "node",
+    "nodeJS",
+    "javascript"
+  ],
+  "author": "AdrielMarchena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrielMarchena/TesteMurilo/issues"
+  },
+  "homepage": "https://github.com/AdrielMarchena/TesteMurilo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.2",
+    "sqlite3": "^5.0.2"
+  }
+}
